@@ -4,12 +4,12 @@
     {
       "name" : "Process All Remaining Files and Folders",
       "stepType" : 1,
-      "uuidString" : "0EC62B60-239E-40AA-A8BC-9A75BF7D2818"
+      "uuidString" : "E721C0BA-4C27-4B7D-85F9-BCEFB2AC3C78"
     }
   ],
   "creatorBuild" : "34365",
   "files" : {
-    "\/deploy\/css\/styles.css" : {
+    "\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -17,86 +17,86 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/css\/styles-min.css",
+      "oAP" : "\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/footer\/facebook_logo.svg" : {
+    "\/img\/footer\/facebook_logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/footer\/facebook_logo.svg",
+      "oAP" : "\/img\/footer\/facebook_logo.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/footer\/insta_logo.svg" : {
+    "\/img\/footer\/insta_logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/footer\/insta_logo.svg",
+      "oAP" : "\/img\/footer\/insta_logo.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/footer\/pinterest_logo.svg" : {
+    "\/img\/footer\/pinterest_logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/footer\/pinterest_logo.svg",
+      "oAP" : "\/img\/footer\/pinterest_logo.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/footer\/yelp_logo.svg" : {
+    "\/img\/footer\/yelp_logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/footer\/yelp_logo.svg",
+      "oAP" : "\/img\/footer\/yelp_logo.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/gift.svg" : {
+    "\/img\/gift.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/gift.svg",
+      "oAP" : "\/img\/gift.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/green_vv_logo.svg" : {
+    "\/img\/green_vv_logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/green_vv_logo.svg",
+      "oAP" : "\/img\/green_vv_logo.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/header\/bunnylogo.svg" : {
+    "\/img\/header\/bunnylogo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/header\/bunnylogo.svg",
+      "oAP" : "\/img\/header\/bunnylogo.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/header\/headerimg.jpg" : {
+    "\/img\/header\/headerimg.jpg" : {
       "ft" : 16384,
       "iS" : 156314,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/header\/headerimg.jpg",
+      "oAP" : "\/img\/header\/headerimg.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -104,42 +104,42 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/header\/notification _bell.svg" : {
+    "\/img\/header\/notification _bell.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/header\/notification _bell.svg",
+      "oAP" : "\/img\/header\/notification _bell.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/header\/share.svg" : {
+    "\/img\/header\/share.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/header\/share.svg",
+      "oAP" : "\/img\/header\/share.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/header\/user-circle.svg" : {
+    "\/img\/header\/user-circle.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/header\/user-circle.svg",
+      "oAP" : "\/img\/header\/user-circle.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/home_page\/cafe.jpg" : {
+    "\/img\/home_page\/cafe.jpg" : {
       "ft" : 16384,
       "iS" : 134459,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/home_page\/cafe.jpg",
+      "oAP" : "\/img\/home_page\/cafe.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -147,12 +147,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/home_page\/events.jpg" : {
+    "\/img\/home_page\/events.jpg" : {
       "ft" : 16384,
       "iS" : 269262,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/home_page\/events.jpg",
+      "oAP" : "\/img\/home_page\/events.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -160,12 +160,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/home_page\/floral.jpg" : {
+    "\/img\/home_page\/floral.jpg" : {
       "ft" : 16384,
       "iS" : 183399,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/home_page\/floral.jpg",
+      "oAP" : "\/img\/home_page\/floral.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -173,22 +173,22 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/home_page\/green_vv_logo.svg" : {
+    "\/img\/home_page\/green_vv_logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/home_page\/green_vv_logo.svg",
+      "oAP" : "\/img\/home_page\/green_vv_logo.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/home_page\/headerimg.jpg" : {
+    "\/img\/home_page\/headerimg.jpg" : {
       "ft" : 16384,
       "iS" : 156314,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/home_page\/headerimg.jpg",
+      "oAP" : "\/img\/home_page\/headerimg.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -196,32 +196,32 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/home_page\/heroimg.svg" : {
+    "\/img\/home_page\/heroimg.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/home_page\/heroimg.svg",
+      "oAP" : "\/img\/home_page\/heroimg.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/home_page\/lineart_flower.svg" : {
+    "\/img\/home_page\/lineart_flower.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/home_page\/lineart_flower.svg",
+      "oAP" : "\/img\/home_page\/lineart_flower.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/home_page\/secondhero.jpg" : {
+    "\/img\/home_page\/secondhero.jpg" : {
       "ft" : 16384,
       "iS" : 406910,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/home_page\/secondhero.jpg",
+      "oAP" : "\/img\/home_page\/secondhero.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -229,20 +229,20 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/Naim Copy of Project.zip" : {
+    "\/img\/Naim Copy of Project.zip" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/Naim Copy of Project.zip",
+      "oAP" : "\/img\/Naim Copy of Project.zip",
       "oF" : 0
     },
-    "\/deploy\/img\/our_shop\/arrangements.jpg" : {
+    "\/img\/our_shop\/arrangements.jpg" : {
       "ft" : 16384,
       "iS" : 220383,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/our_shop\/arrangements.jpg",
+      "oAP" : "\/img\/our_shop\/arrangements.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -250,12 +250,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/our_shop\/bath_salts.jpg" : {
+    "\/img\/our_shop\/bath_salts.jpg" : {
       "ft" : 16384,
       "iS" : 119846,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/our_shop\/bath_salts.jpg",
+      "oAP" : "\/img\/our_shop\/bath_salts.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -263,12 +263,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/our_shop\/bouquets.jpg" : {
+    "\/img\/our_shop\/bouquets.jpg" : {
       "ft" : 16384,
       "iS" : 146194,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/our_shop\/bouquets.jpg",
+      "oAP" : "\/img\/our_shop\/bouquets.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -276,12 +276,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/our_shop\/centerpieces.jpg" : {
+    "\/img\/our_shop\/centerpieces.jpg" : {
       "ft" : 16384,
       "iS" : 697616,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/our_shop\/centerpieces.jpg",
+      "oAP" : "\/img\/our_shop\/centerpieces.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -289,12 +289,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/our_shop\/clusters.jpg" : {
+    "\/img\/our_shop\/clusters.jpg" : {
       "ft" : 16384,
       "iS" : 135118,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/our_shop\/clusters.jpg",
+      "oAP" : "\/img\/our_shop\/clusters.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -302,22 +302,22 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/our_shop\/coffee.svg" : {
+    "\/img\/our_shop\/coffee.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/our_shop\/coffee.svg",
+      "oAP" : "\/img\/our_shop\/coffee.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/our_shop\/customs.jpg" : {
+    "\/img\/our_shop\/customs.jpg" : {
       "ft" : 16384,
       "iS" : 206930,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/our_shop\/customs.jpg",
+      "oAP" : "\/img\/our_shop\/customs.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -325,12 +325,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/our_shop\/dry_flowers.jpg" : {
+    "\/img\/our_shop\/dry_flowers.jpg" : {
       "ft" : 16384,
       "iS" : 234013,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/our_shop\/dry_flowers.jpg",
+      "oAP" : "\/img\/our_shop\/dry_flowers.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -338,42 +338,42 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/our_shop\/gift.svg" : {
+    "\/img\/our_shop\/gift.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/our_shop\/gift.svg",
+      "oAP" : "\/img\/our_shop\/gift.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/our_shop\/green_vv_logo.svg" : {
+    "\/img\/our_shop\/green_vv_logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/our_shop\/green_vv_logo.svg",
+      "oAP" : "\/img\/our_shop\/green_vv_logo.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/our_shop\/greenbranch.svg" : {
+    "\/img\/our_shop\/greenbranch.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/our_shop\/greenbranch.svg",
+      "oAP" : "\/img\/our_shop\/greenbranch.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/our_shop\/headerimg.jpg" : {
+    "\/img\/our_shop\/headerimg.jpg" : {
       "ft" : 16384,
       "iS" : 156314,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/our_shop\/headerimg.jpg",
+      "oAP" : "\/img\/our_shop\/headerimg.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -381,12 +381,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/our_shop\/house_plants.jpg" : {
+    "\/img\/our_shop\/house_plants.jpg" : {
       "ft" : 16384,
       "iS" : 375990,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/our_shop\/house_plants.jpg",
+      "oAP" : "\/img\/our_shop\/house_plants.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -394,12 +394,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/our_shop\/necklace.jpg" : {
+    "\/img\/our_shop\/necklace.jpg" : {
       "ft" : 16384,
       "iS" : 131659,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/our_shop\/necklace.jpg",
+      "oAP" : "\/img\/our_shop\/necklace.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -407,22 +407,22 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/our_shop\/paintedflowers.svg" : {
+    "\/img\/our_shop\/paintedflowers.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/our_shop\/paintedflowers.svg",
+      "oAP" : "\/img\/our_shop\/paintedflowers.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/our_shop\/painting.jpg" : {
+    "\/img\/our_shop\/painting.jpg" : {
       "ft" : 16384,
       "iS" : 171439,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/our_shop\/painting.jpg",
+      "oAP" : "\/img\/our_shop\/painting.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -430,12 +430,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/our_shop\/patio_plants.jpg" : {
+    "\/img\/our_shop\/patio_plants.jpg" : {
       "ft" : 16384,
       "iS" : 293346,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/our_shop\/patio_plants.jpg",
+      "oAP" : "\/img\/our_shop\/patio_plants.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -443,12 +443,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/our_shop\/plant_tools.jpg" : {
+    "\/img\/our_shop\/plant_tools.jpg" : {
       "ft" : 16384,
       "iS" : 213063,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/our_shop\/plant_tools.jpg",
+      "oAP" : "\/img\/our_shop\/plant_tools.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -456,12 +456,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/our_shop\/Rectangle-1.jpg" : {
+    "\/img\/our_shop\/Rectangle-1.jpg" : {
       "ft" : 16384,
       "iS" : 253076,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/our_shop\/Rectangle-1.jpg",
+      "oAP" : "\/img\/our_shop\/Rectangle-1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -469,12 +469,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/our_shop\/Rectangle-2.jpg" : {
+    "\/img\/our_shop\/Rectangle-2.jpg" : {
       "ft" : 16384,
       "iS" : 232156,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/our_shop\/Rectangle-2.jpg",
+      "oAP" : "\/img\/our_shop\/Rectangle-2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -482,12 +482,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/our_shop\/Rectangle-3.jpg" : {
+    "\/img\/our_shop\/Rectangle-3.jpg" : {
       "ft" : 16384,
       "iS" : 266666,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/our_shop\/Rectangle-3.jpg",
+      "oAP" : "\/img\/our_shop\/Rectangle-3.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -495,12 +495,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/our_shop\/Rectangle-4.jpg" : {
+    "\/img\/our_shop\/Rectangle-4.jpg" : {
       "ft" : 16384,
       "iS" : 608785,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/our_shop\/Rectangle-4.jpg",
+      "oAP" : "\/img\/our_shop\/Rectangle-4.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -508,12 +508,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/our_shop\/Rectangle.jpg" : {
+    "\/img\/our_shop\/Rectangle.jpg" : {
       "ft" : 16384,
       "iS" : 133775,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/our_shop\/Rectangle.jpg",
+      "oAP" : "\/img\/our_shop\/Rectangle.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -521,32 +521,32 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/our_shop\/ribbon.svg" : {
+    "\/img\/our_shop\/ribbon.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/our_shop\/ribbon.svg",
+      "oAP" : "\/img\/our_shop\/ribbon.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/our_shop\/sm_greenflower.svg" : {
+    "\/img\/our_shop\/sm_greenflower.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/our_shop\/sm_greenflower.svg",
+      "oAP" : "\/img\/our_shop\/sm_greenflower.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/our_shop\/Succulent.jpg" : {
+    "\/img\/our_shop\/Succulent.jpg" : {
       "ft" : 16384,
       "iS" : 79371,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/our_shop\/Succulent.jpg",
+      "oAP" : "\/img\/our_shop\/Succulent.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -554,12 +554,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/our_shop\/tulips.jpg" : {
+    "\/img\/our_shop\/tulips.jpg" : {
       "ft" : 16384,
       "iS" : 161265,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/our_shop\/tulips.jpg",
+      "oAP" : "\/img\/our_shop\/tulips.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -567,288 +567,24 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/index.html" : {
+    "\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/index.html",
+      "oAP" : "\/index.html",
       "oF" : 0
     },
-    "\/deploy\/js\/scripts-min.js" : {
+    "\/js\/scripts-min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/deploy\/js\/scripts-min-min.js",
+      "oAP" : "\/js\/scripts-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
-    },
-    "\/dev\/content\/cafe.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/cafe.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/floral.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/floral.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/gifts.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/gifts.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/plants.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/plants.html",
-      "oF" : 0
-    },
-    "\/dev\/global\/footer.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/global\/footer.html",
-      "oF" : 0
-    },
-    "\/dev\/global\/head.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/global\/head.html",
-      "oF" : 0
-    },
-    "\/dev\/global\/header.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/global\/header.html",
-      "oF" : 0
-    },
-    "\/dev\/global\/scripts.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/global\/scripts.html",
-      "oF" : 0
-    },
-    "\/dev\/index.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/index.html",
-      "oF" : 2
-    },
-    "\/dev\/js\/scripts.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/dev\/js\/scripts-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/dev\/scss\/base\/_base.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/base\/_base.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/base\/_normalize.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/base\/_normalize.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/base\/_typography.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/base\/_typography.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/components\/_buttons.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_buttons.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/components\/_forms.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_forms.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/components\/_navigation.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_navigation.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/helpers\/_mixins.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/helpers\/_mixins.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/helpers\/_variables.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/helpers\/_variables.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/layout\/_footer.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/layout\/_footer.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/layout\/_header.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/layout\/_header.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/styles.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/css\/styles.css",
-      "oF" : 2,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/package-lock.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/package-lock-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/package.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/package-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
     }
   },
   "hooks" : [
@@ -858,10 +594,10 @@
 
   },
   "projectAttributes" : {
-    "creationDate" : 674664821.21952605,
-    "displayValue" : "Saleem_Web2_FINAL",
+    "creationDate" : 675238909.97940195,
+    "displayValue" : "deploy",
     "displayValueWasSetByUser" : 0,
-    "iconImageName" : "brackets-tar",
+    "iconImageName" : "brackets-red",
     "iconImageWasSetByUser" : 0
   },
   "projectSettings" : {
