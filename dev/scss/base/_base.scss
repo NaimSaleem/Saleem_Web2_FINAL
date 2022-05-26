@@ -2,4 +2,22 @@
     Base
 ============= */
 
+.css-grid-global{
+    display: grid;
+    grid-template-columns: 56px auto 56px;
+    grid-template-areas: ". middle .";
+    
+    >div{
+        grid-area: middle; 
+    }
+    
+}
 
+ul{
+    padding: 0;
+    margin: 0;
+
+    li{
+        list-style: none;
+    }
+}

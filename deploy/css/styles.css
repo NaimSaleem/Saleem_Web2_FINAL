@@ -352,16 +352,29 @@ template {
 /* =============
     Base
 ============= */
+.css-grid-global {
+  display: grid;
+  grid-template-columns: 56px auto 56px;
+  grid-template-areas: ". middle .";
+}
+.css-grid-global > div {
+  grid-area: middle;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+
 /* =============
     Typography
 ============= */
 /* =============
     Buttons
 ============= */
-button {
-  border: none;
-}
-
 /* =============
     Forms
 ============= */
@@ -386,9 +399,20 @@ textarea {
 /* =============
     Header
 ============= */
-header {
-  color: red;
-  font-size: 0.75rem;
+#headerimg {
+  background-image: url("../img/header/headerimg.jpg");
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 20vh;
+  background-size: cover;
+  background-position: center;
+}
+#headerimg img {
+  width: 100px;
+  height: 100px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
 }
 
 /* =============

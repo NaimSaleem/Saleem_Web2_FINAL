@@ -1,3 +1,35 @@
 /* =============
     Header
 ============= */
+
+#headerimg{
+            background-image: url('../img/header/headerimg.jpg');
+            background-repeat: no-repeat;
+            width: 100vw;
+            height: 20vh;
+            background-size: cover;
+            // x: left | center | right;
+            // y: top | center | bottom;
+            background-position: center;
+
+            img{
+                width: 100px;
+                height: 100px;
+                display: grid;
+                justify-content: center;
+                align-content: center;
+
+             }
+            
+
+}
+#header{
+    div{
+        section{
+            
+            
+        }
+    }
+
+
+}
