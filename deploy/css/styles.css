@@ -354,7 +354,7 @@ template {
 ============= */
 .css-grid-global {
   display: grid;
-  grid-template-columns: 56px auto 56px;
+  grid-template-columns: 64px auto 64px;
   grid-template-areas: ". middle .";
 }
 .css-grid-global > div {
@@ -418,3 +418,75 @@ textarea {
 /* =============
     Footer
 ============= */
+#cafe {
+  display: grid;
+  justify-content: center;
+}
+#cafe img {
+  width: auto;
+}
+
+#floral img {
+  width: auto;
+}
+
+#gifts {
+  background-color: bisque;
+}
+#gifts div #items #bathsalts {
+  background-image: url("../img/our_shop/bath_salts.jpg");
+  width: 70vw;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+#gifts div #items #succulents {
+  background-image: url("../img/our_shop/Succulent.jpg");
+  width: 70vw;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+#gifts div #items #painting {
+  background-image: url("../img/our_shop/painting.jpg");
+  width: 70vw;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+#gifts div #items #necklace {
+  background-image: url("../img/our_shop/necklace.jpg");
+  width: 70vw;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+img {
+  width: 260px;
+  height: 220px;
+}
+
+#plants div #items .item-images {
+  width: 70vw;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+#plants div #items #houseplants {
+  background-image: url("../img/our_shop/house_plants.jpg");
+}
+#plants div #items #planttools {
+  background-image: url("../img/our_shop/plant_tools.jpg");
+}
+#plants div #items #patio {
+  background-image: url("../img/our_shop/patio_plants.jpg");
+}
+#plants div #items #centerpieces {
+  background-image: url("../img/our_shop/centerpieces.jpg");
+}

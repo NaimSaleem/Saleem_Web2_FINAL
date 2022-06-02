@@ -1,3 +1,28 @@
 #plants{
+    div{
+        #items{
+            .item-images{
+                width: 70vw;
+                height: 50vh;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+            }
+            #houseplants{
+                background-image: url('../img/our_shop/house_plants.jpg');
+            }
 
+            #planttools{
+                background-image: url('../img/our_shop/plant_tools.jpg');
+            }
+
+            #patio{
+                background-image: url('../img/our_shop/patio_plants.jpg');
+            }
+
+            #centerpieces{
+                background-image: url('../img/our_shop/centerpieces.jpg');
+            }
+        }
+    }
 }
