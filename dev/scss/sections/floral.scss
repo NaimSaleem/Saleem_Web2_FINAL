@@ -1,6 +1,40 @@
 #floral{
-    img{
-        width: auto;
+    background-color: var(--pale-yellow);
+    div{
+        #items{
+
+            .item-images{
+                width: 70vw;
+                height: 50vh;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+            }
+
+            #arrangements{
+                background-image: url('../img/our_shop/arrangements.jpg')
+            }
+
+            #cluster{
+                background-image: url('../img/our_shop/clusters.jpg')
+            }
+
+            #dryflowers{
+                background-image: url('../img/our_shop/dry_flowers.jpg')
+            }
+
+            #bouquets{
+                background-image: url('../img/our_shop/bouquets.jpg')
+            }
+
+            #tulips{
+                background-image: url('../img/our_shop/tulips.jpg')
+            }
+
+            #customs{
+                background-image: url('../img/our_shop/customs.jpg')
+            }
 
     }
+}
 }

@@ -1,7 +1,18 @@
 #gifts{
-    background-color: bisque;
+    background-color: var(--pale-yellow);
 
     div{
+
+        h1{
+            display: flex;
+            justify-content: center;
+        }
+
+        #gift{
+            display: flex;
+            justify-content: center;
+        }
+
         #items{
            
 

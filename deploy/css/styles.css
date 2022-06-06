@@ -10,6 +10,16 @@ html {
 /* =============
     Variables
 ============= */
+:root {
+  --cream: #F7D8C5;
+  --pale-yellow: #F8F5EC;
+  --dark-green: #064209;
+  --dark-blue: #15274F;
+  --pale-green: #A8C0BB;
+  --light-green: #79AB84;
+  --green: #7F9892;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -403,16 +413,27 @@ textarea {
   background-image: url("../img/header/headerimg.jpg");
   background-repeat: no-repeat;
   width: 100vw;
-  height: 20vh;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-size: cover;
   background-position: center;
 }
 #headerimg img {
-  width: 100px;
-  height: 100px;
-  display: grid;
-  justify-content: center;
-  align-content: center;
+  width: 80px;
+  height: 80px;
+  background-color: var(--green);
+  border-radius: 50%;
+}
+
+#header div section button {
+  background-color: var(--pale-yellow);
+  border: none;
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 8px;
 }
 
 /* =============
@@ -426,12 +447,45 @@ textarea {
   width: auto;
 }
 
-#floral img {
-  width: auto;
+#floral {
+  background-color: var(--pale-yellow);
+}
+#floral div #items .item-images {
+  width: 70vw;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+#floral div #items #arrangements {
+  background-image: url("../img/our_shop/arrangements.jpg");
+}
+#floral div #items #cluster {
+  background-image: url("../img/our_shop/clusters.jpg");
+}
+#floral div #items #dryflowers {
+  background-image: url("../img/our_shop/dry_flowers.jpg");
+}
+#floral div #items #bouquets {
+  background-image: url("../img/our_shop/bouquets.jpg");
+}
+#floral div #items #tulips {
+  background-image: url("../img/our_shop/tulips.jpg");
+}
+#floral div #items #customs {
+  background-image: url("../img/our_shop/customs.jpg");
 }
 
 #gifts {
-  background-color: bisque;
+  background-color: var(--pale-yellow);
+}
+#gifts div h1 {
+  display: flex;
+  justify-content: center;
+}
+#gifts div #gift {
+  display: flex;
+  justify-content: center;
 }
 #gifts div #items #bathsalts {
   background-image: url("../img/our_shop/bath_salts.jpg");
