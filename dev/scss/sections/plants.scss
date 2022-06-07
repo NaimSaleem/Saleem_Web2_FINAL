@@ -1,27 +1,60 @@
 #plants{
     div{
+
+        #plant{
+            display: flex;
+            justify-content: center;
+        }
         #items{
+            display: grid;
+            grid-template-columns: auto 16px auto;
+            grid-template-areas: 
+            "top top top"
+            "left . right"
+            "bottom bottom bottom"; 
+
             .item-images{
-                width: 70vw;
-                height: 50vh;
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: contain;
+                @include md{
+                    height: 50vh;
+                }
+            }
+            
+            @include md{
+                display: grid;
+                grid-template-columns: auto 100px auto;
+            }
+
+            @include lg{
+                display: grid;
+                grid-template-columns: auto 60px auto;
             }
             #houseplants{
                 background-image: url('../img/our_shop/house_plants.jpg');
+                grid-area: top;
+                margin-bottom: 12px;
+                @include md{
+                    margin-bottom: 80px;
+                }
             }
 
             #planttools{
                 background-image: url('../img/our_shop/plant_tools.jpg');
+                grid-area: left;
+                margin-bottom: 12px;
+                    @include md{
+                    margin-bottom: 80px;
+                }
             }
 
             #patio{
                 background-image: url('../img/our_shop/patio_plants.jpg');
+                grid-area: right;
             }
 
             #centerpieces{
                 background-image: url('../img/our_shop/centerpieces.jpg');
+                grid-area: bottom;
+                margin-bottom: 12px;
             }
         }
     }

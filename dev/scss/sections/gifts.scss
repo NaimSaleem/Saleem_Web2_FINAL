@@ -2,7 +2,7 @@
     background-color: var(--pale-yellow);
 
     div{
-
+        
         h1{
             display: flex;
             justify-content: center;
@@ -14,44 +14,76 @@
         }
 
         #items{
-           
+            @include md{
+                display: grid;
+                grid-template-columns: 116px 1fr 1fr 116px;
+                grid-template-areas: 
+                ". topleft topright ."
+                ". bottomleft bottomright .";
+                margin-bottom: 30px;
+                @include lg{
+                    display: grid;
+                grid-template-columns: 116px 1fr 120px 1fr 116px;
+                grid-template-areas: 
+                ". topleft . topright ."
+                ". bottomleft . bottomright .";
+                }
+                
+
+            }
+
+            .item-images{
+                @include md{
+                    height: 20vh;
+                }
+                @include lg{
+                    height: 60vh;
+                }
+            }
 
                 #bathsalts{
                     background-image: url('../img/our_shop/bath_salts.jpg');
-                    width: 70vw;
-                    height: 50vh;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: contain;
+                    @include md{
+                        margin-bottom: 24px;
+                        grid-area: topleft;
+                        @include lg{
+                            margin-bottom: 115px;
+                        }
+                    }
+                    
                 }
 
                 #succulents{    
+
                     background-image: url('../img/our_shop/Succulent.jpg');
-                    width: 70vw;
-                    height: 50vh;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: contain;
+                    @include md{
+                        margin-left: 24px;
+                        grid-area: topright;
+                    
+                    }
+                    
                 }   
 
                 #painting{
                     background-image: url('../img/our_shop/painting.jpg');
-                    width: 70vw;
-                    height: 50vh;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: contain;
+                    @include md{
+                        grid-area: bottomleft;
+                    }
+                    
                 }
                 
 
                 #necklace{
                     background-image: url('../img/our_shop/necklace.jpg');
-                    width: 70vw;
-                    height: 50vh;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: contain;
+                    @include md{
+                        margin-left: 24px;
+                        grid-area: bottomright;
+                    }
+                    
                 }
+
+                
+                
             }
                 }
             
@@ -59,7 +91,7 @@
     }
 
     img{
-        width: 260px;
-        height: 220px;
+        // width: 260px;
+        // height: 220px;
     }
     

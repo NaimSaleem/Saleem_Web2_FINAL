@@ -4,7 +4,7 @@
 
 .css-grid-global{
     display: grid;
-    grid-template-columns: 64px auto 64px;
+    grid-template-columns: 52px auto 52px;
     grid-template-areas: ". middle .";
     
     >div{
@@ -20,4 +20,37 @@ ul{
     li{
         list-style: none;
     }
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.item-images{
+    width: 100%;
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.ribbon{
+    display: flex;
+    margin-left: -15px;
+    margin-top: 10px;
+    justify-content: center;
+    border: none;
+    flex: auto;
+    background-color: transparent;
+    background-image: url('../img/our_shop/ribbon.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 0 40px 0;
+    width: 100%;
+    height: 50vh;
+    max-width: 200px;
+    max-height: 59px;
 }

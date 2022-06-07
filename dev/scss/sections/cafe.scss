@@ -1,8 +1,60 @@
 #cafe{
-    display: grid;
-    justify-content: center;
+
+    #cafe{
+        display: flex;
+        justify-content: center;
+    }
+
+    #items{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 
+        "one two"
+        "three four"
+        "five five";
+        @include md{
+            display: grid;
+            grid-template-columns: 116px 1fr 24px 1fr 116px;
+            grid-template-areas:
+            ". one . two ."
+            ". three . four ."
+            ". five five five .";
+
+        }
+
+        #milk{
+            background-image: url('../img/our_shop/milk.jpg');
+            grid-area: one;
+            margin-bottom: 36px;
+        }
+
+        #merch{
+            background-image: url('../img/our_shop/merch.jpg');
+            grid-area: two;
+        }
+
+        #insideshop{
+            background-image: url('../img/our_shop/inside_shop.jpg');
+            grid-area: three;
+            margin-bottom: 36px;
+        }
+
+        #lightshop{
+            background-image: url('../img/our_shop/light_shop.jpg');
+            grid-area: four;
+            
+        }
+
+        #frontstore{
+            background-image: url('../img/our_shop/front_store.jpg');
+            grid-area: five;
+            margin-bottom: 36px;
+        }
+
+    }
+
+
     img{
-        width: auto;
 
     }
 }

@@ -1,38 +1,81 @@
 #floral{
     background-color: var(--pale-yellow);
     div{
+
+        #floral{
+            display: flex;
+            justify-content: center;
+        }
         #items{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-areas: 
+            "left right"
+            "middle middleright"
+            "botleft botright"; 
+            @include md{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-areas: 
+                "topleft topmid topright"
+                "botleft botmid botright";
+            }
 
             .item-images{
-                width: 70vw;
-                height: 50vh;
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: contain;
+                @include md{
+                    height: 50vh;
+                }
             }
 
             #arrangements{
-                background-image: url('../img/our_shop/arrangements.jpg')
-            }
+                background-image: url('../img/our_shop/arrangements.jpg');
+                grid-area: left;
+                margin-bottom: 36px;
+                @include md{
+                    grid-area: topleft;
+                }
+            }   
 
             #cluster{
-                background-image: url('../img/our_shop/clusters.jpg')
+                background-image: url('../img/our_shop/clusters.jpg');
+                grid-area: right;
+                @include md{
+                    grid-area: topmid;
+                }
             }
 
             #dryflowers{
-                background-image: url('../img/our_shop/dry_flowers.jpg')
+                background-image: url('../img/our_shop/dry_flowers.jpg');
+                grid-area: middle;
+                margin-bottom: 36px;
+                @include md{
+                    grid-area: topright;
+                }
             }
 
             #bouquets{
-                background-image: url('../img/our_shop/bouquets.jpg')
+                background-image: url('../img/our_shop/bouquets.jpg');
+                grid-area: middleright;
+                @include md{
+                    grid-area: botleft;
+                }
             }
 
             #tulips{
-                background-image: url('../img/our_shop/tulips.jpg')
+                background-image: url('../img/our_shop/tulips.jpg');
+                grid-area: botleft;
+                margin-bottom: 36px;
+                @include md{
+                    grid-area: botmid;
+                }
             }
 
             #customs{
-                background-image: url('../img/our_shop/customs.jpg')
+                background-image: url('../img/our_shop/customs.jpg');
+                grid-area: botright;
+                @include md{
+                    grid-area: botright;
+                }
             }
 
     }

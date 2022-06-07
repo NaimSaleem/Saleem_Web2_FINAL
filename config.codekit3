@@ -21,6 +21,14 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/home.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/home.html",
+      "oF" : 0
+    },
     "\/deploy\/img\/footer\/facebook_logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -351,15 +359,18 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/our_shop\/gift.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/our_shop\/gift.svg",
+    "\/deploy\/img\/our_shop\/gift.png" : {
+      "ft" : 32768,
+      "iS" : 47853,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/our_shop\/gift.png",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/img\/our_shop\/green_vv_logo.svg" : {
       "ft" : 2097152,
@@ -649,6 +660,14 @@
       "oA" : 1,
       "oAP" : "\/dev\/global\/scripts.html",
       "oF" : 0
+    },
+    "\/dev\/home.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/home.html",
+      "oF" : 2
     },
     "\/dev\/index.kit" : {
       "cB" : 0,

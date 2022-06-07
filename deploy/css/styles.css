@@ -364,7 +364,7 @@ template {
 ============= */
 .css-grid-global {
   display: grid;
-  grid-template-columns: 64px auto 64px;
+  grid-template-columns: 52px auto 52px;
   grid-template-areas: ". middle .";
 }
 .css-grid-global > div {
@@ -377,6 +377,38 @@ ul {
 }
 ul li {
   list-style: none;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.item-images {
+  width: 100%;
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ribbon {
+  display: flex;
+  margin-left: -15px;
+  margin-top: 10px;
+  justify-content: center;
+  border: none;
+  flex: auto;
+  background-color: transparent;
+  background-image: url("../img/our_shop/ribbon.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px 0 40px 0;
+  width: 100%;
+  height: 50vh;
+  max-width: 200px;
+  max-height: 59px;
 }
 
 /* =============
@@ -439,41 +471,125 @@ textarea {
 /* =============
     Footer
 ============= */
-#cafe {
-  display: grid;
+#cafe #cafe {
+  display: flex;
   justify-content: center;
 }
-#cafe img {
-  width: auto;
+#cafe #items {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "one two" "three four" "five five";
 }
-
+@media (min-width: 768px) {
+  #cafe #items {
+    display: grid;
+    grid-template-columns: 116px 1fr 24px 1fr 116px;
+    grid-template-areas: ". one . two ." ". three . four ." ". five five five .";
+  }
+}
+#cafe #items #milk {
+  background-image: url("../img/our_shop/milk.jpg");
+  grid-area: one;
+  margin-bottom: 36px;
+}
+#cafe #items #merch {
+  background-image: url("../img/our_shop/merch.jpg");
+  grid-area: two;
+}
+#cafe #items #insideshop {
+  background-image: url("../img/our_shop/inside_shop.jpg");
+  grid-area: three;
+  margin-bottom: 36px;
+}
+#cafe #items #lightshop {
+  background-image: url("../img/our_shop/light_shop.jpg");
+  grid-area: four;
+}
+#cafe #items #frontstore {
+  background-image: url("../img/our_shop/front_store.jpg");
+  grid-area: five;
+  margin-bottom: 36px;
+}
 #floral {
   background-color: var(--pale-yellow);
 }
-#floral div #items .item-images {
-  width: 70vw;
-  height: 50vh;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+#floral div #floral {
+  display: flex;
+  justify-content: center;
+}
+#floral div #items {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "left right" "middle middleright" "botleft botright";
+}
+@media (min-width: 768px) {
+  #floral div #items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "topleft topmid topright" "botleft botmid botright";
+  }
+}
+@media (min-width: 768px) {
+  #floral div #items .item-images {
+    height: 50vh;
+  }
 }
 #floral div #items #arrangements {
   background-image: url("../img/our_shop/arrangements.jpg");
+  grid-area: left;
+  margin-bottom: 36px;
+}
+@media (min-width: 768px) {
+  #floral div #items #arrangements {
+    grid-area: topleft;
+  }
 }
 #floral div #items #cluster {
   background-image: url("../img/our_shop/clusters.jpg");
+  grid-area: right;
+}
+@media (min-width: 768px) {
+  #floral div #items #cluster {
+    grid-area: topmid;
+  }
 }
 #floral div #items #dryflowers {
   background-image: url("../img/our_shop/dry_flowers.jpg");
+  grid-area: middle;
+  margin-bottom: 36px;
+}
+@media (min-width: 768px) {
+  #floral div #items #dryflowers {
+    grid-area: topright;
+  }
 }
 #floral div #items #bouquets {
   background-image: url("../img/our_shop/bouquets.jpg");
+  grid-area: middleright;
+}
+@media (min-width: 768px) {
+  #floral div #items #bouquets {
+    grid-area: botleft;
+  }
 }
 #floral div #items #tulips {
   background-image: url("../img/our_shop/tulips.jpg");
+  grid-area: botleft;
+  margin-bottom: 36px;
+}
+@media (min-width: 768px) {
+  #floral div #items #tulips {
+    grid-area: botmid;
+  }
 }
 #floral div #items #customs {
   background-image: url("../img/our_shop/customs.jpg");
+  grid-area: botright;
+}
+@media (min-width: 768px) {
+  #floral div #items #customs {
+    grid-area: botright;
+  }
 }
 
 #gifts {
@@ -487,60 +603,124 @@ textarea {
   display: flex;
   justify-content: center;
 }
+@media (min-width: 768px) {
+  #gifts div #items {
+    display: grid;
+    grid-template-columns: 116px 1fr 1fr 116px;
+    grid-template-areas: ". topleft topright ." ". bottomleft bottomright .";
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  #gifts div #items {
+    display: grid;
+    grid-template-columns: 116px 1fr 120px 1fr 116px;
+    grid-template-areas: ". topleft . topright ." ". bottomleft . bottomright .";
+  }
+}
+@media (min-width: 768px) {
+  #gifts div #items .item-images {
+    height: 20vh;
+  }
+}
+@media (min-width: 1024px) {
+  #gifts div #items .item-images {
+    height: 60vh;
+  }
+}
 #gifts div #items #bathsalts {
   background-image: url("../img/our_shop/bath_salts.jpg");
-  width: 70vw;
-  height: 50vh;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+}
+@media (min-width: 768px) {
+  #gifts div #items #bathsalts {
+    margin-bottom: 24px;
+    grid-area: topleft;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  #gifts div #items #bathsalts {
+    margin-bottom: 115px;
+  }
 }
 #gifts div #items #succulents {
   background-image: url("../img/our_shop/Succulent.jpg");
-  width: 70vw;
-  height: 50vh;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+}
+@media (min-width: 768px) {
+  #gifts div #items #succulents {
+    margin-left: 24px;
+    grid-area: topright;
+  }
 }
 #gifts div #items #painting {
   background-image: url("../img/our_shop/painting.jpg");
-  width: 70vw;
-  height: 50vh;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+}
+@media (min-width: 768px) {
+  #gifts div #items #painting {
+    grid-area: bottomleft;
+  }
 }
 #gifts div #items #necklace {
   background-image: url("../img/our_shop/necklace.jpg");
-  width: 70vw;
-  height: 50vh;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+}
+@media (min-width: 768px) {
+  #gifts div #items #necklace {
+    margin-left: 24px;
+    grid-area: bottomright;
+  }
 }
 
-img {
-  width: 260px;
-  height: 220px;
+#plants div #plant {
+  display: flex;
+  justify-content: center;
 }
-
-#plants div #items .item-images {
-  width: 70vw;
-  height: 50vh;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+#plants div #items {
+  display: grid;
+  grid-template-columns: auto 16px auto;
+  grid-template-areas: "top top top" "left . right" "bottom bottom bottom";
+}
+@media (min-width: 768px) {
+  #plants div #items .item-images {
+    height: 50vh;
+  }
+}
+@media (min-width: 768px) {
+  #plants div #items {
+    display: grid;
+    grid-template-columns: auto 100px auto;
+  }
+}
+@media (min-width: 1024px) {
+  #plants div #items {
+    display: grid;
+    grid-template-columns: auto 60px auto;
+  }
 }
 #plants div #items #houseplants {
   background-image: url("../img/our_shop/house_plants.jpg");
+  grid-area: top;
+  margin-bottom: 12px;
+}
+@media (min-width: 768px) {
+  #plants div #items #houseplants {
+    margin-bottom: 80px;
+  }
 }
 #plants div #items #planttools {
   background-image: url("../img/our_shop/plant_tools.jpg");
+  grid-area: left;
+  margin-bottom: 12px;
+}
+@media (min-width: 768px) {
+  #plants div #items #planttools {
+    margin-bottom: 80px;
+  }
 }
 #plants div #items #patio {
   background-image: url("../img/our_shop/patio_plants.jpg");
+  grid-area: right;
 }
 #plants div #items #centerpieces {
   background-image: url("../img/our_shop/centerpieces.jpg");
+  grid-area: bottom;
+  margin-bottom: 12px;
 }
