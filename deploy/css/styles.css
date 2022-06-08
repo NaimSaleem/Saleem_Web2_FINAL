@@ -17,6 +17,8 @@ html {
   --dark-blue: #15274F;
   --pale-green: #A8C0BB;
   --light-green: #79AB84;
+  --mint: #bed0cc;
+  --forest: #a1afab;
   --green: #7F9892;
 }
 
@@ -459,15 +461,6 @@ textarea {
   border-radius: 50%;
 }
 
-#header div section button {
-  background-color: var(--pale-yellow);
-  border: none;
-  width: 100%;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  padding: 8px;
-}
-
 /* =============
     Footer
 ============= */
@@ -723,4 +716,182 @@ textarea {
   background-image: url("../img/our_shop/centerpieces.jpg");
   grid-area: bottom;
   margin-bottom: 12px;
+}
+
+#shophere div section button {
+  background-color: var(--pale-yellow);
+  border: none;
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 8px;
+}
+
+#hero {
+  background-image: url("../img/home_page/heroimg.svg");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+#hero #logo {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+@media (min-width: 768px) {
+  #hero #logo {
+    top: 25%;
+    position: relative;
+    align-items: center;
+  }
+}
+#hero #herosection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hero #herosection #buttons {
+  justify-content: center;
+}
+#hero #herosection #buttons div {
+  display: grid;
+  grid-template-columns: repeat(4fr);
+  grid-template-rows: repeat(5fr);
+  grid-column-gap: 100px;
+  grid-template-areas: ". shop shop ." "services services galleries galleries" ". ourstory ourstory ." "contact contact resources resources";
+}
+@media (min-width: 768px) {
+  #hero #herosection #buttons div {
+    grid-template-areas: ". shop galleries ." "contact . . ourstory" ". resources services .";
+  }
+}
+#hero #herosection #buttons div #shop {
+  grid-area: shop;
+}
+#hero #herosection #buttons div #services {
+  grid-area: services;
+}
+#hero #herosection #buttons div #galleries {
+  grid-area: galleries;
+}
+#hero #herosection #buttons div #ourstory {
+  grid-area: ourstory;
+}
+#hero #herosection #buttons div #contact {
+  grid-area: contact;
+}
+#hero #herosection #buttons div #resources {
+  grid-area: resources;
+}
+#hero #herosection #buttons div .diamond {
+  background-color: var(--cream);
+  height: 125px;
+  width: 125px;
+  border: none;
+  opacity: 70%;
+  line-height: 125px;
+  transform: rotate(45deg);
+  margin-top: -30px;
+}
+@media (min-width: 768px) {
+  #hero #herosection #buttons div .diamond {
+    top: -80%;
+    position: relative;
+    margin-bottom: 100px;
+    height: 150px;
+    width: 150px;
+  }
+}
+#hero #herosection #buttons div .diamond span {
+  text-align: center;
+  display: inline-block;
+  transform: rotate(-45deg);
+  opacity: 100%;
+}
+
+#underhero {
+  background-color: var(--pale-yellow);
+}
+#underhero #uhcontent {
+  background-color: white;
+}
+#underhero #uhcontent #uhimg {
+  background-image: url("../img/home_page/secondhero.jpg");
+  width: 100%;
+  height: 40vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#underhero #uhcontent #uhtext {
+  padding-bottom: 30px;
+}
+
+#services {
+  background-color: var(--mint);
+}
+#services #imgs div {
+  background-color: var(--pale-yellow);
+}
+#services #imgs div #events {
+  background-image: url("../img/home_page/events.jpg");
+}
+#services #imgs div #florals {
+  background-image: url("../img/home_page/floral.jpg");
+}
+#services #imgs div #cafe {
+  background-image: url("../img/home_page/cafe.jpg");
+}
+#services #imgs div .service-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 42px;
+}
+#services #imgs div a {
+  font-size: 3.4375rem;
+  text-align: center;
+}
+
+#contact {
+  background-color: var(--forest);
+}
+#contact div {
+  background-color: var(--pale-green);
+}
+#contact div #contactform {
+  display: grid;
+  grid-template-columns: 8px 60% auto 8px;
+  grid-template-areas: ". first first ." ". last last ." ". subject subject ." ". message message ." ". . send .";
+}
+#contact div #contactform #firstname {
+  grid-area: first;
+}
+#contact div #contactform #lastname {
+  grid-area: last;
+}
+#contact div #contactform #subject {
+  grid-area: subject;
+}
+#contact div #contactform #message {
+  grid-area: message;
+  padding-bottom: 300px;
+}
+#contact div #contactform #send {
+  grid-area: send;
+}
+#contact div #contactform .input {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 8px;
+  margin-bottom: 30px;
+  border: none;
+  background-color: var(--pale-yellow);
+  border-radius: 5px;
 }

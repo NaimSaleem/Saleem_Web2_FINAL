@@ -1,0 +1,18 @@
+#underhero{
+  background-color: var(--pale-yellow);
+  #uhcontent{
+      background-color: white;
+    #uhimg{
+        background-image: url('../img/home_page/secondhero.jpg');
+        width: 100%;
+        height: 40vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    #uhtext{
+       padding-bottom: 30px;
+    }
+  } 
+
+}

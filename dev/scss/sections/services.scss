@@ -1,0 +1,42 @@
+#services{
+background-color: var(--mint);
+    #imgs{
+        
+        div{
+            background-color: var(--pale-yellow);
+            #events{
+                background-image: url('../img/home_page/events.jpg');
+
+            }
+
+            #florals{
+                background-image: url('../img/home_page/floral.jpg');
+            }
+
+            #cafe{
+                background-image: url('../img/home_page/cafe.jpg');
+            }
+
+            .service-images{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 30vh;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                margin-top: 42px;
+            }
+
+            a{
+                font-size: rem-calc(55);
+                text-align: center;
+            }
+        }
+
+    }
+
+
+
+}

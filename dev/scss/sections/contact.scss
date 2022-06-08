@@ -1,0 +1,52 @@
+#contact{
+background-color: var(--forest);
+    div{
+        background-color: var(--pale-green);
+        #contactform{
+
+            display: grid;
+            grid-template-columns: 8px 60% auto 8px;
+            grid-template-areas: 
+            ". first first ."
+            ". last last ."
+            ". subject subject ."
+            ". message message ."
+            ". . send .";
+    
+            #firstname{
+                grid-area: first;
+            }
+    
+            #lastname{
+                grid-area: last;
+            }
+    
+            #subject{
+                grid-area: subject;
+            }
+    
+            #message{
+                grid-area: message;
+                padding-bottom: 300px;
+            }
+    
+            #send{
+                grid-area: send;
+            }
+    
+            .input{
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-left: 8px;
+                margin-bottom: 30px;
+                border: none;
+                background-color: var(--pale-yellow);
+                border-radius: 5px;
+            }
+    
+        }
+    }
+    
+
+
+}
