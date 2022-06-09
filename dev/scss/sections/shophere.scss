@@ -2,12 +2,34 @@
     div{
         section{
             button{
-                background-color: var(--pale-yellow);
+            background-color: var(--light-cream);
               border: none;
               width: 100%;  
               margin-top: 24px;
               margin-bottom: 24px;
               padding: 8px;
+              font-family: 'Quicksand';
+              font-size: 26px;
+              font-weight: 300;
+              @include md{
+                  padding-left: 130px;
+                  padding-right: 130px;
+              }
+
+              @include lg{
+                padding-left: 292px;
+                padding-right: 292px;
+              }
+
+              @include xl{
+                padding-left: 380px;
+                padding-right: 380px;
+              }
+            }
+            button:hover{
+                cursor: pointer;
+                transition: 0.7s;
+                background-color: var(--mint);
             }
             
         }

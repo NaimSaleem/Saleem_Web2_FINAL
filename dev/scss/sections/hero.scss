@@ -1,103 +1,142 @@
 #hero{
-
-    background-image: url('../img/home_page/heroimg.svg');
-    background-size: cover;
-    background-position: center;
-    width: 100vw;
-    height: 100vh;
+   
     @include md{
         
     }
     #logo{
+        background-image: url('../img/home_page/heroimg.svg');
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
         display: flex;
         justify-content: center;
-        padding-bottom: 70px;
-        padding-top: 70px;
-        @include md{
-            top: 25%;
-            position: relative;
-            align-items: center;
+        align-items: center;
+        img{
+            position: absolute;
+            margin-bottom: 48px;
+            height: 100%;
+            width: 100%;
+            max-width: 320px;
+            max-height: 130px;
+            top: 17%;
+            @include md{
+                margin-left: 10%;
+                top: 55%;
+                max-width: 400px;
+                max-height: 150px;
+            }
         }
+        
 
     }
     #herosection{
 
         display: flex;
-        align-items: center;
         justify-content: center;
 
         #buttons{
+            margin-top: 60px;
+            @include md{
+                margin-top: 0;
+            }
 
-            
             justify-content: center;
            
             div{
-                
+                display: flex;
                 display: grid;
                 grid-template-columns: repeat(4fr);
-                grid-template-rows: repeat(5fr);
                 grid-column-gap: 100px;
+                grid-template-rows: repeat(5fr);
                 grid-template-areas: 
-                ". shop shop ."
-                "services services galleries galleries"
-                ". ourstory ourstory ."
+                ". shop shop . "
+                " services services galleries galleries "
+                " . ourstory ourstory ."
                 "contact contact resources resources";
                 @include md{
+                    grid-row-gap: 80px;
+                    grid-column-gap: 80px;
                     grid-template-areas: 
                     ". shop galleries ."
                     "contact . . ourstory"
                     ". resources services .";
                 }
 
-                #shop{
-                    grid-area: shop;
-                    
-                }
+                    #shop{
+                        grid-area: shop;
+                        
+                    }
+    
+                    #services{
+                        grid-area: services;
+                        
+                    }
+    
+                    #galleries{
+                        grid-area: galleries;
 
-                #services{
-                    grid-area: services;
-                }
+                        
+                    }
+    
+                    #ourstory{
+                        grid-area: ourstory;
 
-                #galleries{
-                    grid-area: galleries;
-                }
+                        
+                    }
+    
+                    #contact{
+                        grid-area: contact;
 
-                #ourstory{
-                    grid-area: ourstory;
-                }
+                        
+                    }
+    
+                    #resources{
+                        grid-area: resources;
 
-                #contact{
-                    grid-area: contact;
-                }
-
-                #resources{
-                    grid-area: resources;
-                }
+                        
+                    }
+                
+                
 
                 .diamond{
+                    top: 0;
+                    position: relative;
                     background-color: var(--cream);
-                    height: 125px;
-                    width: 125px;
+                    height: 90px;
+                    width: 90px;
                     border: none;
                     opacity: 70%;
-                    line-height: 125px;
                     transform: rotate(45deg);
-                    margin-top: -30px; 
                     @include md{
-                        top: -80%;
-                        position: relative;
-                        margin-bottom: 100px;
-                        height: 150px;
-                        width: 150px;
+                        width: 100px;
+                        height: 100px;
+                        filter: drop-shadow(0 0 0.75rem black);
                     }
+
                     span{
+                        font-family: 'Quicksand';
+                        font-size: rem-calc(16);
+                        font-weight: 500;
+                        color: var(--dark-green);
                         text-align: center;
                         display: inline-block;
                         transform: rotate(-45deg);
                         opacity: 100%;
+                        @include md{
+                            font-size: rem-calc(18);
+                        }
                     }
                 }
 
+                .diamond:hover{
+                    background-color: var(--dark-green);
+                    transition: 0.7s;
+                    cursor: pointer;
+                    span{
+                        color: white;
+                    }
+                }   
 
             }
         }

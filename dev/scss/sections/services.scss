@@ -1,42 +1,80 @@
 #services{
-background-color: var(--mint);
-    #imgs{
-        
-        div{
-            background-color: var(--pale-yellow);
-            #events{
-                background-image: url('../img/home_page/events.jpg');
-
-            }
-
-            #florals{
-                background-image: url('../img/home_page/floral.jpg');
-            }
-
-            #cafe{
-                background-image: url('../img/home_page/cafe.jpg');
-            }
-
-            .service-images{
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width: 100%;
-                height: 30vh;
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-                margin-top: 42px;
-            }
-
-            a{
-                font-size: rem-calc(55);
-                text-align: center;
-            }
+    background-color: var(--mint);
+    width: 100%;
+        #plant{
+            position: absolute;
+            background-image: url('../img/our_shop/greenbranch.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 20vw;
+            height: 50vh;
+            right: 0;
         }
 
+        #imgs{
+        
+            div{
+                background-color: var(--pale-yellow);
+    
+                h1{
+                    margin-top: 72px;
+                    margin-bottom: 72px; 
+                    color: var(--dark-green);
+                    font-family: 'Quicksand'; 
+                }
+                #events{
+                    background-image: url('../img/home_page/events.jpg');
+    
+                }
+    
+                #florals{
+                    background-image: url('../img/home_page/floral.jpg');
+                }
+    
+                #cafe{
+                    background-image: url('../img/home_page/cafe.jpg');
+                }
+    
+                .service-images{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 40vh;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    margin-bottom: 72px;
+                    #aevents{
+                        color: white;
+                    }
+
+                    #afloral{
+                        color: var(--dark-green)
+                    }
+
+                    #acafe{
+                        color: var(--dark-green)
+                    }
+                }
+    
+                a{
+                    font-family: 'Quicksand';
+                    font-size: rem-calc(48);
+                    text-align: center;
+                    text-decoration: none;
+                    transition: filter .3s ease-in-out;
+                }
+                a:hover{
+                    filter: drop-shadow(0 0 0.75rem black);
+                }
+            }
+    
+        }
+ 
     }
 
 
 
-}
+
+

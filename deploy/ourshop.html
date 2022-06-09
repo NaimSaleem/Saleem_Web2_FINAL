@@ -5,14 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/7ab68a398d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Starting Template</title>
 </head>
 
 <body>
-    <section id="headerimg">
-        <img src="img/header/bunnylogo.svg">
-        <!-- <img src="img/header/headerimg.jpg"> -->
-    </section>
+    
+    <header>
+        <div>
+            <section id="headerimg">
+                <a href="index.html"><img src="img/header/bunnylogo.svg"></a>
+                <!-- <img src="img/header/headerimg.jpg"> -->
+            </section>
+    
+            <aside id="burger-container">
+                <button id="burger-btn">
+                    <i class="fa-solid fa-bars fa-2x"></i>
+                </button>
+        
+                            
+                            <nav id="main-menu">
+                                <aside class="hide-for-lg">
+                                        <button id="close-btn">
+                                            <i class="fa-solid fa-xmark-large"></i>
+                                        </button>
+                                    </aside>
+                                    <section>
+                                        <ul>
+                                            <li><a href="#">GALLERIES</a></li>
+                                            <li><a href="ourshop.html">SHOP</a></li>
+                                            <li><a href="#services">SERVICES</a></li>
+                                            <li><a href="#">OUR STORY</a></li>
+                                            <li><a href="#">RESOURCES</a></li>
+                                            <li><a href="#contact">CONTACT</a></li>
+                                        
+                                        </ul>
+                                    </section>
+                            </nav>
+                            
+            </aside>
+    
+        </div>
+        
+    
+    </header>
+    
+    
     
     <script src="js/scripts-min.js"></script>
     <section id="shophere" class="css-grid-global">
@@ -26,12 +67,14 @@
                 
                     <div>
                 
-                        <div id="gift">
-                            <img src="img/our_shop/gift.png">
-                        </div>
-                        <h1>
-                            Gifts
-                        </h1>
+                
+                            <div id="gift">
+                                <img src="img/our_shop/gift.png">
+                            </div>
+                            <h1>
+                                Gifts
+                            </h1>
+                        
                 
                         <div id="items">
                             <section id="bathsalts" class="item-images">
@@ -99,22 +142,22 @@
                             
                                     <section id="items">
                                         <section id="arrangements" class="item-images">
-                                            <button class="ribbon">Arrangements</button>
+                                            <button class="ribbon"><span class="ribbontext">Arrangements</span></button>
                                         </section>
                                         <section id="cluster" class="item-images">
-                                            <button class="ribbon">Cluster</button>
+                                            <button class="ribbon"><span class="ribbontext">Cluster</span></button>
                                         </section> 
                                         <section id="dryflowers" class="item-images">
-                                            <button class="ribbon">Dry Flowers</button>
+                                            <button class="ribbon"><span class="ribbontext">Dry Flowers</span></button>
                                         </section>
                                         <section id="bouquets" class="item-images">
-                                            <button class="ribbon">Bouquets</button>
+                                            <button class="ribbon"><span class="ribbontext">Bouquets</span></button>
                                         </section>
                                         <section id="tulips" class="item-images">
-                                            <button class="ribbon">Tulips</button>
+                                            <button class="ribbon"><span class="ribbontext">Tulips</span></button>
                                         </section>
                                         <section id="customs" class="item-images">
-                                            <button class="ribbon">Customs</button>
+                                            <button class="ribbon"><span class="ribbontext">Customs</span></button>
                                         </section>
                                     </section>
                         
@@ -139,13 +182,18 @@
                                     <h1>
                                         Cafe
                                     </h1>
-                                    <p>
-                                        When we conceptualized Vault + Vine, we wanted to create a space where both our guests and staff would feel at home. Located in the heart of East Falls, our café is the perfect place to unwind, meet a friend, or catch up on some work.
-                            
-                            Stop by and enjoy our offerings from a variety of local vendors, including coffee from Triangle Roasters; tea from The Random Tea Room and pastries from Au Fournil French Artisan Bakery, and Crust Vegan Bakery.
-                            
-                            The café is open from 8a-3p Thursday through Sunday.
-                                    </p>
+                                        <p class="paragraph">
+                                            When we conceptualized Vault + Vine, we wanted to create a space where both our guests and staff would feel at home. 
+                                            Located in the heart of East Falls, our café is the perfect place to 
+                                            unwind, meet a friend, or catch up on some work.
+                                        </p>
+                                        <p class="paragraph">
+                                            Stop by and enjoy our offerings from a variety of local vendors, including coffee from Triangle Roasters; 
+                                            tea from The Random Tea Room and pastries from Au Fournil French Artisan Bakery, and Crust Vegan Bakery. 
+                                        </p>
+                                        <p class="paragraph">
+                                            The café is open from 8a-3p Thursday through Sunday.
+                                        </p>
                                     <div id="items">
                                         <section id="milk" class="item-images">
                                         </section>
@@ -161,15 +209,15 @@
                                 </div>
                             
                             </section>
-    <section id="footer" class="css-grid-global">
+    <section id="footer">
                                     <div>
                                         <section>
-                                            <img src="img/footer/insta_logo.svg">
-                                            <img src="img/footer/facebook_logo.svg">
-                                            <img src="img/footer/pinterest_logo.svg">
-                                            <img src="img/footer/yelp_logo.svg">
+                                            <a href="https://www.instagram.com/vaultandvine.co/?hl=en"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                                            <a href="https://www.facebook.com/vaultandvine.co/"><i class="fa-brands fa-facebook-square fa-2x"></i></a>
+                                            <a href="https://www.pinterest.com/vaultandvine/"><i class="fa-brands fa-pinterest fa-2x"></i></a>
+                                            <a href="https://www.yelp.com/biz/vault-vine-philadelphia"><i class="fa-brands fa-yelp fa-2x"></i></a>
                                         </section>
-                                        <aside><p>2017 VAULT + VINE LLC., ALL RIGHTS RESERVEDCONTACT USDESIGN BY INK + MORTAR</p></aside>
+                                        <aside><p>2017 VAULT + VINE LLC., ALL RIGHTS RESERVEDCONTACT USDESIGN BY NAIM SALEEM</p></aside>
                                     </div>
                                 </section>
 </body>

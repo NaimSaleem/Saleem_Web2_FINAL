@@ -1,51 +1,124 @@
 #contact{
 background-color: var(--forest);
-    div{
-        background-color: var(--pale-green);
-        #contactform{
+height: 120vh;
+width: 100%;
+#plant{
+    position: absolute;
+    background-image: url('../img/our_shop/greenbranch.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20vw;
+    height: 50vh;
+    right: 0;
+}
 
-            display: grid;
-            grid-template-columns: 8px 60% auto 8px;
-            grid-template-areas: 
-            ". first first ."
-            ". last last ."
-            ". subject subject ."
-            ". message message ."
-            ". . send .";
-    
-            #firstname{
-                grid-area: first;
+#plant2{
+    position: absolute;
+    background-image: url('../img/our_shop/greenbranch.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: rotate(180deg);
+    width: 20vw;
+    height: 100%;
+    left: 0;
+}
+
+
+#contactpage{
+
+
+        div{
+            background-color: var(--pale-green);
+            height: 120vh;
+            h1{
+                margin-top: 48px;
+                margin-bottom: 48px;
+                color: var(--dark-green);
             }
+            #contactform{
     
-            #lastname{
-                grid-area: last;
+                display: grid;
+                grid-template-columns: 8px 60% auto 8px;
+                grid-template-areas: 
+                ". first first ."
+                ". last last ."
+                ". subject subject ."
+                ". message message ."
+                ". . send .";
+                @include md{
+                    grid-template-columns: 8px 50% 24px 25% auto 8px;
+                    grid-template-areas: 
+                    ". first . last last ."
+                    ". subject subject subject subject ."
+                    ". message message message message ."
+                    ". . . . send .";
+                }
+        
+                #firstname{
+                    grid-area: first;
+                }
+        
+                #lastname{
+                    grid-area: last;
+                }
+        
+                #subject{
+                    grid-area: subject;
+                }
+        
+                #message{
+                    grid-area: message;
+                    padding-bottom: 300px;
+                }
+        
+                #send{
+                    grid-area: send;
+                    border: none;
+                    border-radius: 5px;
+                    padding-top: 8px;
+                    padding-bottom: 8px;
+                    background-color: var(--pale-yellow);
+                }
+        
+                .input{
+                    color: black;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    width: 100%;
+                    margin-bottom: 30px;
+                    margin-left: -5px;
+                    border: none;
+                    background-color: var(--pale-yellow);
+                    border-radius: 5px;
+                    font-family: 'Quicksand';
+                    opacity: 100%;
+
+
+
+                }
+                ::placeholder{
+                    color: var(--dark-green);
+                }
+
+                button{
+                    font-family: 'Quicksand';
+                    font-size: rem-calc(16);
+                    color: var(--dark-green);
+                }
+
+                #send:hover{
+                    transition: 0.7s;
+                    cursor: pointer;
+                    background-color: var(--dark-green);
+                    color: white;
+                    
+                }
+                
+
             }
-    
-            #subject{
-                grid-area: subject;
-            }
-    
-            #message{
-                grid-area: message;
-                padding-bottom: 300px;
-            }
-    
-            #send{
-                grid-area: send;
-            }
-    
-            .input{
-                padding-top: 20px;
-                padding-bottom: 20px;
-                padding-left: 8px;
-                margin-bottom: 30px;
-                border: none;
-                background-color: var(--pale-yellow);
-                border-radius: 5px;
-            }
-    
         }
-    }
+}
+
     
 
 

@@ -2,8 +2,20 @@
     div{
 
         #plant{
+            margin-top: 64px;
             display: flex;
             justify-content: center;
+        }
+
+        h1{
+            margin-bottom: 56px;
+           color: var(--green);
+           @include md{
+            margin-bottom: 84px;
+           }
+           @include lg{
+            margin-bottom: 124px;
+           }
         }
         #items{
             display: grid;
@@ -55,6 +67,7 @@
                 background-image: url('../img/our_shop/centerpieces.jpg');
                 grid-area: bottom;
                 margin-bottom: 12px;
+                
             }
         }
     }

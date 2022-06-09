@@ -5,37 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/7ab68a398d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Starting Template</title>
 </head>
 
 <body>
-    <section id="headerimg">
-        <img src="img/header/bunnylogo.svg">
-        <!-- <img src="img/header/headerimg.jpg"> -->
-    </section>
+    
+    <header>
+        <div>
+            <section id="headerimg">
+                <a href="index.html"><img src="img/header/bunnylogo.svg"></a>
+                <!-- <img src="img/header/headerimg.jpg"> -->
+            </section>
+    
+            <aside id="burger-container">
+                <button id="burger-btn">
+                    <i class="fa-solid fa-bars fa-2x"></i>
+                </button>
+        
+                            
+                            <nav id="main-menu">
+                                <aside class="hide-for-lg">
+                                        <button id="close-btn">
+                                            <i class="fa-solid fa-xmark-large"></i>
+                                        </button>
+                                    </aside>
+                                    <section>
+                                        <ul>
+                                            <li><a href="#">GALLERIES</a></li>
+                                            <li><a href="ourshop.html">SHOP</a></li>
+                                            <li><a href="#services">SERVICES</a></li>
+                                            <li><a href="#">OUR STORY</a></li>
+                                            <li><a href="#">RESOURCES</a></li>
+                                            <li><a href="#contact">CONTACT</a></li>
+                                        
+                                        </ul>
+                                    </section>
+                            </nav>
+                            
+            </aside>
+    
+        </div>
+        
+    
+    </header>
+    
+    
     
     <script src="js/scripts-min.js"></script>
-    <section id="hero">
+    <section id="hero" >
             
                 <section id="logo">
-                    <img src="img/home_page/green_vv_logo.png">
-                </section>
+                    <div>
+                        <img src="img/home_page/green_vv_logo.png">
                     <section id="herosection">
-                        <section id="buttons">
+                        <section id="buttons" >
                             <div>
-                                <button id="contact" class="diamond"><span class="buttontext">CONTACT</span></button>
-                                <button id="shop" class="diamond"><span class="buttontext">SHOP</span></button>
-                                <button id="galleries" class="diamond"><span class="buttontext">GALLERIES</span></button>
-                                <button id="resources" class="diamond"><span class="buttontext">RESOURCES</span></button>
-                                <button id="services" class="diamond"><span class="buttontext">SERVICES</span></button>
-                                <button id="ourstory" class="diamond"><span class="buttontext">OUR STORY</span></button>
+                                <button class="diamond" id="contact"><span class="buttontext">CONTACT</span></button>
+                                <button  class="diamond" id="shop"><span class="buttontext">SHOP</span></button>
+                                <button  class="diamond" id="galleries"><span class="buttontext">GALLERIES</span></button>
+                                <button  class="diamond" id="resources"><span class="buttontext">RESOURCES</span></button>
+                                <button  class="diamond" id="services"><span class="buttontext">SERVICES</span></button>
+                                <button  class="diamond" id="ourstory"><span class="buttontext">OUR STORY</span></button>
                             </div>
                         </section>
                     </section>
+                    </div>
+                    
+                </section>
+                   
             </section>
             
     <section id="underhero" >
+                    <section id="floraldesign" >
+                        
+                    </section>
+                    <section id="floraldesign2">
                 
+                    </section>
                 
                     <div class="css-grid-global">
                         <div>
@@ -45,7 +95,7 @@
                 
                                 </section>
                                 <section id="uhtext">
-                                    <p>
+                                    <p class="paragraph">
                                         Welcome to Vault + Vine. We are a small group of humans working together to shape the world we wish to live in. 
                                         Our philosophy is that the world is a beautiful place and our purpose is to share that with you.
                                     </p>
@@ -55,48 +105,69 @@
                         </div>
                     </div>
                 </section>
-    <section id="services" >
-                        <div id=imgs class="css-grid-global">
+    <section id="services">
+                    
+                    
+                            <section id="plant">
+                    
+                            </section>
+                    
+                     
+                        
+                        
+                        <section id=imgs class="css-grid-global">
                             <div>
                                 <h1>
                                     Our Services
                                 </h1>
                                 <section id="events" class="service-images">
-                                    <a href="#">Events</a>
+                                    <a href="#" id="aevents">Events</a>
                                 </section>
                                 <section id="florals" class="service-images">
-                                    <a href="#">Floral</a>
+                                    <a href="#" id="afloral">Floral</a>
                                 </section>
                                 <section id="cafe" class="service-images">
-                                    <a href="#">Cafe</a>
+                                    <a href="#" id="acafe">Café</a>
                                 </section>
                             </div>
-                        </div>
-                    </section>
-    <section id="contact" class="css-grid-global">
-                        
-                            <div>
-                                <h1>Contact</h1>
-                                    <section id="contactform">   
-                                        <input type="text" id="firstname" placeholder="First Name" class="input">
-                                        <input type="text" id="lastname" placeholder="Last Name" class="input">
-                                        <input type="text" id="subject" placeholder="Subject" class="input">
-                                        <input type="text" id="message" placeholder="Message..." class="input">
-                                        <button id="send">Send</button>
-                                    </section>
-                                </div>
                         </section>
-    <section id="footer" class="css-grid-global">
+                    </section>
+    <section id="contact">
+                            
+                            <section id="plant">
+                        
+                            </section>
+                            <section id="plant2">
+                        
+                            </section>
+                        
+                            <section id=contactpage class="css-grid-global">
+                                <div>
+                                    <h1>Contact</h1>
+                                        <section id="contactform">   
+                                            <input type="text" id="firstname" placeholder="First Name" class="input">
+                                            <input type="text" id="lastname" placeholder="Last Name" class="input">
+                                            <input type="text" id="subject" placeholder="Subject" class="input">
+                                            <input type="text" id="message" placeholder="Message..." class="input">
+                                            <button id="send">Send</button>
+                                        </section>
+                                    </div>
+                        
+                            </section>
+                        
+                        
+                           
+                        </section>
+    <section id="footer">
                                 <div>
                                     <section>
-                                        <img src="img/footer/insta_logo.svg">
-                                        <img src="img/footer/facebook_logo.svg">
-                                        <img src="img/footer/pinterest_logo.svg">
-                                        <img src="img/footer/yelp_logo.svg">
+                                        <a href="https://www.instagram.com/vaultandvine.co/?hl=en"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                                        <a href="https://www.facebook.com/vaultandvine.co/"><i class="fa-brands fa-facebook-square fa-2x"></i></a>
+                                        <a href="https://www.pinterest.com/vaultandvine/"><i class="fa-brands fa-pinterest fa-2x"></i></a>
+                                        <a href="https://www.yelp.com/biz/vault-vine-philadelphia"><i class="fa-brands fa-yelp fa-2x"></i></a>
                                     </section>
-                                    <aside><p>2017 VAULT + VINE LLC., ALL RIGHTS RESERVEDCONTACT USDESIGN BY INK + MORTAR</p></aside>
+                                    <aside><p>2017 VAULT + VINE LLC., ALL RIGHTS RESERVEDCONTACT USDESIGN BY NAIM SALEEM</p></aside>
                                 </div>
                             </section>
 </body>
-
 </html>

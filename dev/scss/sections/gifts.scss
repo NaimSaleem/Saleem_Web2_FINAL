@@ -1,16 +1,31 @@
 #gifts{
-    background-color: var(--pale-yellow);
+    background-color: var(--light-cream);
 
     div{
         
         h1{
             display: flex;
             justify-content: center;
+            font-size: rem-calc(68);
+            color: var(--dark-green);
+            margin-bottom: 50px;
+            @include md{
+                margin-bottom: 84px;
+               }
+               @include lg{
+                margin-bottom: 124px;
+               }
         }
 
         #gift{
+
             display: flex;
             justify-content: center;
+            @include lg{
+                margin-bottom: 72px;
+            }
+            
+            
         }
 
         #items{
@@ -33,18 +48,20 @@
             }
 
             .item-images{
+                margin-bottom: 36px;
+                height: 40vh;
                 @include md{
-                    height: 20vh;
+                    height: 30vh;
                 }
-                @include lg{
-                    height: 60vh;
+
+                @include xl{
+                    height: 50vh;
                 }
             }
 
                 #bathsalts{
                     background-image: url('../img/our_shop/bath_salts.jpg');
                     @include md{
-                        margin-bottom: 24px;
                         grid-area: topleft;
                         @include lg{
                             margin-bottom: 115px;
@@ -68,6 +85,7 @@
                     background-image: url('../img/our_shop/painting.jpg');
                     @include md{
                         grid-area: bottomleft;
+                        margin-bottom: 80px;
                     }
                     
                 }

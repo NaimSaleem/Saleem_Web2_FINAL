@@ -1,3 +1,54 @@
 /* =============
     Footer
 ============= */
+
+#footer{
+    width: 100%;
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -100%;
+        background-color: var(--dark-blue);
+        color: white;
+        section{
+            margin-top: 8px;
+            a{
+                color: white;
+            }
+
+            a:hover{
+                cursor: pointer;
+                color: var(--pale-green);
+            }
+            i{
+                
+                align-items: center;
+                padding-left: 24px;
+                padding-left: 6px;
+                margin-left: 20px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                font-size: 24px;
+                @include md{
+                    margin-left: 3px;
+                    padding-right: 6px;
+                    font-size: 24px;
+                }
+            }
+            
+        }
+        aside{
+            align-items: center;
+            font-family: 'Quicksand';
+            font-weight: 500;
+            margin-left: 16px;
+            @include md{
+                font-size: 14px;
+            }
+        }
+    }
+
+    
+}

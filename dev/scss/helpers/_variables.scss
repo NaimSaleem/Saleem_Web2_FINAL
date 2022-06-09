@@ -4,7 +4,7 @@
 
 // Define the breakpoints
 // Small tablets and large smartphones
-$screen-sm-min: 576px;
+$screen-sm-min: 568px;
 
 // Small tablets
 $screen-md-min: 768px;
@@ -27,6 +27,7 @@ $black: #000;
 
 :root{
     --cream: #F7D8C5;
+    --light-cream: #FDF4EE;
     --pale-yellow: #F8F5EC;
     --dark-green: #064209;
     --dark-blue: #15274F;

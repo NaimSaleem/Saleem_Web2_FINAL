@@ -1,17 +1,53 @@
 #underhero{
-  background-color: var(--pale-yellow);
+    display: flex;
+    height: auto;
+    background-color: var(--pale-yellow);
+    width: 100%;
+    #floraldesign{
+        background-image: url('../img/home_page/lineart_flower.svg');
+        position: absolute;
+        background-size: contain;
+        width: 30%;
+        height: 100%;
+        background-repeat: no-repeat;
+    }
+
+    #floraldesign2{
+        align-self: flex-end;
+        background-image: url('../img/home_page/lineart_flower.svg');
+        position: absolute;
+        width: 30%;
+        height: 100%;
+        background-size: contain;
+        transform: rotate(180deg);
+        right: 0;
+        background-repeat: no-repeat;
+    }
+
+    
   #uhcontent{
       background-color: white;
     #uhimg{
+        top: 64px;
+        padding-top: 64px;
         background-image: url('../img/home_page/secondhero.jpg');
         width: 100%;
         height: 40vw;
         background-repeat: no-repeat;
         background-size: cover;
+        @include md{
+            margin-top: 36px;
+        }
 
     }
     #uhtext{
+    margin-top: 88px;
        padding-bottom: 30px;
+       color: var(--dark-green);
+       @include md{
+        margin-left: 15%;
+        margin-right: 15%;    
+       }
     }
   } 
 

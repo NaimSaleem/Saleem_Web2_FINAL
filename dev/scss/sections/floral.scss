@@ -1,8 +1,19 @@
 #floral{
-    background-color: var(--pale-yellow);
+    background-color: var(--light-cream);
     div{
 
+        h1{
+            margin-top: -48px;
+            color: var(--green);
+            @include md{
+                margin-bottom: 84px;
+               }
+               @include lg{
+                margin-bottom: 124px;
+               }
+        }
         #floral{
+
             display: flex;
             justify-content: center;
         }

@@ -4,8 +4,20 @@
 
 .css-grid-global{
     display: grid;
-    grid-template-columns: 52px auto 52px;
+    grid-template-columns: 64px auto 64px;
     grid-template-areas: ". middle .";
+    @include md{
+        grid-template-columns: 72px auto 72px;
+    }
+
+    @include lg{
+        grid-template-columns: 100px auto 100px;
+    }
+
+    @include xl{
+        grid-template-columns: 130px auto 130px;
+    }
+
     
     >div{
         grid-area: middle; 
@@ -25,6 +37,12 @@ ul{
 h1{
     display: flex;
     justify-content: center;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 300;
+    font-family: 'Quicksand';
+    letter-spacing: 0.2px;
+    line-height: 25px;
 }
 
 .item-images{
@@ -40,7 +58,7 @@ h1{
     display: flex;
     margin-left: -15px;
     margin-top: 10px;
-    justify-content: center;
+    align-items: center;
     border: none;
     flex: auto;
     background-color: transparent;
@@ -53,4 +71,38 @@ h1{
     height: 50vh;
     max-width: 200px;
     max-height: 59px;
+    text-align: center;
+    padding-left: 20px;
+    font-weight: 300;
+    font-size: 20px;
+    color: black;
+    font-family: 'Quicksand';
+
+}
+.ribbon:hover{
+    transition: 0.7s;
+    cursor: pointer;
+    filter: drop-shadow(0 0 0.75rem black);
+}
+
+.paragraph{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Quicksand';
+    letter-spacing: 0.2px;
+    line-height: 25px;
+}
+
+.bigtitle{
+
+}
+
+.show-menu{
+    display: block !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
 }
